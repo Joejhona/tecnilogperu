@@ -77,7 +77,7 @@ export default {
   },
   server: {
     // port: 5700 // default: 3000
-    port: '0.0.0.0'
+    port: process.env.PORT
   },
   vue: {
     config: {
